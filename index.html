@@ -28,10 +28,22 @@
                 Baishali Datta
             </div>
             <div>
-                <p style="font-size: 1.2rem;">I am an aspiring <span style="color:rgb(255 200 242)">full stack web
+                <p style="font-size: 1.2rem; margin-bottom: 40px;">I am an aspiring <span style="color:rgb(255 200 242)">full stack web
                         developer</span>.</p>
-                <p>I love creating websites that look cool but does not compromis on the user experience.</p>
-                <p>When I am not coding, I can be found painting or reading a book.</p>
+                <div style="display: flex;">
+                    <div class="info">
+                        <span><img style="height: 20px" src="./static/phone-call.png"></span>
+                        <span>9874723102</span>
+                    </div>
+                    <div class="info">
+                        <span><img style="height: 20px" src="./static/gmail.png"></span>
+                        <span>baishali95920@gmail</span>
+                    </div>
+                    <div class="info">
+                        <span><img style="height: 20px" src="./static/github.png"></span>
+                        <span><a href="https://github.com/BaishaliD">GitHub</a></span>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col2">
@@ -71,7 +83,7 @@
                     <img style="height:100%; width: 100%; overflow: hidden;" src="./static/weather.png"
                         alt="Weather App">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 card-wrapper">
                     <div class="card-body">
                         <h5 class="card-title">Weather App</h5>
                         <p class="card-text">This is a weather app built using the Open Weather API. It detects the
@@ -99,7 +111,7 @@
                     <img style="height:100%; width: 100%; overflow: hidden;" src="./static/superhero.png"
                         alt="Superhero Hunter">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 card-wrapper">
                     <div class="card-body">
                         <h5 class="card-title">Superhero Hunter App</h5>
                         <p class="card-text">This is a responsive website built using the Superhero API, which is a database of fictional characters from DC and Marvel Comics. The search option has an autocomplete feature - as the user types, a list is displayed from which the user can select any character and view their data. The user can add their favourite characters to a persistent 'Favourites' list, and remove any character from the list. This list is maintained in local storage.</p>
@@ -174,7 +186,7 @@
                     <img style="height:100%; width: 100%; overflow: hidden;" src="./static/auth.png"
                         alt="Authentication System">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 card-wrapper">
                     <div class="card-body">
                         <h5 class="card-title">Authentication System</h5>
                         <p class="card-text">This is a general authentication system that can be used in any web application. I have used 'bcrypt' for hashing passwords, and Passport.js for authentication. The user can either Sign in using his existing Google accounts, or can create a new account with an existing email id. Google Recaptcha V2 has been used for verification during Sign in. Once logged in, the user can change his password. There is an option for getting a new password through a recovery email in case the user forgets their password. </p>
@@ -195,7 +207,7 @@
                     <img style="height:100%; width: 100%; overflow: hidden;" src="./static/hospital.png"
                         alt="Hospital API">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 card-wrapper">
                     <div class="card-body">
                         <h5 class="card-title">Hospital API</h5>
                         <p class="card-text">A backend API designed using MongoDB and NodeJS, to let doctors manage reports for patients.
@@ -240,7 +252,7 @@
                     <img style="height:100%; width: 100%; overflow: hidden;" src="./static/todo_full.png"
                         alt="Todo List">
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 card-wrapper">
                     <div class="card-body">
                         <h5 class="card-title">Todo list</h5>
                         <p class="card-text">A fullstack todo list with Neumorphic UI, created using HTML, CSS, Vanilla Javascript, NodeJS, ExpressJS and MongoDB. </p>
